@@ -1,0 +1,276 @@
+
+@media (max-width: 450px) {
+
+  body{
+    width: 100% !important;
+  }
+
+  .main-navigation {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    //min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .main-navigation-pc {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .main-navigation li {
+    list-style: none;
+    padding-left: 68px;
+  }
+
+/*header*/
+  header{
+    width: 100%;
+  }
+  .home-logo{
+    padding-top: 33px;
+    padding-bottom: 33px;
+    width: 38%;
+    margin:0 auto;
+  }
+  .home-mainvisual {
+    display: none;
+  }
+  .sp-mainvisual {
+    width: 100%;
+    }
+
+  ul{
+    display: flex;
+  }
+  
+  /*コンテンツ*/
+  .home-concept{
+    margin-top: 62px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+
+  }
+
+  .concept-img{
+    width: 100%;
+    text-align: center;
+  }
+
+  .concept-text{
+    margin-left: 40px;
+    margin-bottom: 80px;
+  }
+  .home-text06 {
+  color: rgba(36, 168, 191, 1);
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-size: 32px;
+  font-style: W6;
+  text-align: left;
+  font-family: Hiragino Kaku Gothic ProN;
+  font-weight: bold;
+  line-height: 43px;
+  font-stretch: normal;
+  text-decoration: none;
+
+  }
+  .home-text10 {
+    color: rgba(51, 51, 51, 1);
+    height: auto;
+    font-size: 16px;
+    font-style: W3;
+    text-align: left;
+    font-family: Hiragino Kaku Gothic ProN;
+    font-weight: 400;
+    line-height: 29px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+
+/*ブログ*/
+.wp-blog{
+  width:100%;
+}
+
+
+.blog-title{
+  width: 100%;
+  
+}
+
+.blog-title h2{
+  text-align: center;
+  margin:5px 0;
+}
+
+.blog-title p{
+  text-align: center;
+}
+
+.home-text17 {
+  color: rgba(36, 168, 191, 1);
+  height: auto;
+  font-size: 32px;
+  font-style: Bold;
+  font-family: Arial;
+  line-height: 32px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.home-text19 {
+  color: rgba(51, 51, 51, 1);
+  height: auto;
+  padding-bottom: 30px;
+  font-size: 13px;
+  font-style: W6;
+  font-family: Hiragino Kaku Gothic ProN;
+  line-height: 13px;
+  font-stretch: normal;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.wp-blog button {
+  width: 90%;
+  margin:30px 0 10px 5%;
+  padding: 20px 70px;
+  background-color: #ffffff;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgba(36, 168, 191, 1);
+  font-weight: bold;
+  display: flex;
+  position: relative;
+}
+
+
+.home-iconarrowright {
+  width: 9px;
+  height: 5px;
+  top: 22px;
+  right: 10px;
+  line-height: 15px;
+  position: absolute;
+}
+
+.home-text48 {
+  color: rgba(36, 168, 191, 1);
+  height: auto;
+  margin: 0 auto;
+  font-size: 15px;
+  font-style: W6;
+  text-align: left;
+  font-family: Hiragino Kaku Gothic ProN;
+  line-height: 15px;
+  font-stretch: normal;
+  text-decoration: none;
+  }
+
+.blog-content01{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-content01 img{
+  width: 100%;
+}
+
+.blog-content02{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-content02 img{
+  width: 100%;
+}
+
+.blog-content03{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-content03 img{
+  width: 100%;
+}
+
+.blog-content04{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-content04 img{
+  width: 100%;
+}
+
+.blog-content05{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-content05 img{
+  width: 100%;
+}
+
+.blog-content06{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-content06 img{
+  width: 100%;
+}
+
+.article{
+  font-weight: bold;
+}
+
+/*footer*/
+footer {
+  top: 50px;
+  background-color: #000000;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  text-align: center;
+}
+.home-text50 {
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(139, 139, 139, 1);
+  height: auto;
+  font-size: 12px;
+  font-style: Regular;
+  font-family: Arial;
+  font-weight: 400;
+  line-height: 13.800000190734863px;
+  font-stretch: normal;
+  text-decoration: none;
+  position: absolute;
+}
+.home-logowhite {
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  width: 180px;
+  height: 36px;
+  margin-bottom: 80px;
+  position: absolute;
+}
+
+.copy {
+  margin-bottom: 30px;
+}
+
+}
