@@ -30,6 +30,10 @@
     padding-left: 68px;
   }
 
+  .main-navigation a {
+    width: 100%;
+  }
+
 /*header*/
   header{
     width: 100%;
@@ -97,11 +101,31 @@
     text-decoration: none;
   }
 
+/*メニュー*/
+article{
+  width:100%;
+}
+.menu{
+  width:48%;
+  margin-left:2%;
+}
+.menu h2{
+  font-size:14px;
+}
+
+.is-scrollIn {
+  opacity: 1 !important;
+  transform: translate(0, 0) !important;
+}
+
 /*ブログ*/
 .wp-blog{
   width:100%;
 }
 
+.blog-ul,.blog-li{
+  list-style-type: none;
+}
 
 .blog-title{
   width: 100%;
@@ -176,62 +200,13 @@
   text-decoration: none;
   }
 
-.blog-content01{
-  width: 90%;
+  .blog-li:first-child{
+    width:100%;
+    margin: 0 auto;
+  }
+  
+.blog-content img{
   margin: 0 auto;
-}
-
-.blog-content01 img{
-  width: 100%;
-}
-
-.blog-content02{
-  width: 90%;
-  margin: 0 auto;
-}
-
-.blog-content02 img{
-  width: 100%;
-}
-
-.blog-content03{
-  width: 90%;
-  margin: 0 auto;
-}
-
-.blog-content03 img{
-  width: 100%;
-}
-
-.blog-content04{
-  width: 90%;
-  margin: 0 auto;
-}
-
-.blog-content04 img{
-  width: 100%;
-}
-
-.blog-content05{
-  width: 90%;
-  margin: 0 auto;
-}
-
-.blog-content05 img{
-  width: 100%;
-}
-
-.blog-content06{
-  width: 90%;
-  margin: 0 auto;
-}
-
-.blog-content06 img{
-  width: 100%;
-}
-
-.article{
-  font-weight: bold;
 }
 
 /*footer*/
@@ -273,4 +248,17 @@ footer {
   margin-bottom: 30px;
 }
 
+/*ブログ記事一覧*/
+.news-list{
+  display:block;
+}
+
+.blog-cont{
+  display:block;
+}
+
+.blog-thumb{
+  display:flex;
+  justify-content: center;
+}
 }

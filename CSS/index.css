@@ -182,7 +182,7 @@
 }  
 .is-scrollIn {
   opacity: 1 !important;
-  transform: translate(0, 0);
+  transform: translate(0, 0) !important;
 }
 
 /*コンセプトここまで*/
@@ -364,6 +364,15 @@ article{
 section{
   width: calc(100%/3);
 }
+.menu img{
+  box-shadow: 20px 20px #8cd2da;
+}
+.menu{
+  opacity: 0;
+  transform: translateY(154px);
+  transition-duration: 2s;
+  transition-property: opacity, transform;
+}
 
 /*ページナビ*/
 .nav-links{
@@ -437,4 +446,27 @@ section{
 
 .entry-content p{
   margin: 20px 0;
+}
+
+/*ブログ一覧ページ*/
+.blog-info-body{
+  margin:0 auto;
+}
+ul {
+  list-style: none;
+}
+.news-list-item{
+  margin-bottom:30px;
+}
+.blog-thumb{
+  margin-right:30px;
+}
+.blog-cont{
+  display:flex;
+}
+.blog-info{
+  width:100%;
+}
+.blog-title{
+  text-align:center;
 }

@@ -42,6 +42,7 @@
         <li class="blog-li">
           <a href="<?php the_permalink(); ?>">
             <?php echo has_post_thumbnail() ? get_the_post_thumbnail(get_the_ID(), array(270, 180)) : '<img src="https://via.placeholder.com/270x180/?text=[No Image]">'; ?>
+            <p><?php the_time('Y/n/j'); ?></p>
             <h3>
               <?php
               if (mb_strlen($post->post_title) > 20) {
@@ -52,7 +53,6 @@
               }
               ?>
             </h3>
-            <p><?php the_time('Y/n/j'); ?></p>
           </a>
         </li>
       </ul>

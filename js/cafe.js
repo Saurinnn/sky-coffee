@@ -1,8 +1,6 @@
 jQuery(function() {
-  console.log("Document ready");
   jQuery(window).scroll(function() {
-    console.log("Window scrolled");
-    let fadeIn = jQuery('.face-pic, .fadein');
+    let fadeIn = jQuery('.face-pic, .fadein, .menu');
     
     jQuery(fadeIn).each(function() {
       let offset = jQuery(this).offset().top;
@@ -11,7 +9,6 @@ jQuery(function() {
       
       if (scroll > offset - windowHeight + 50) {
         jQuery(this).addClass('is-scrollIn');
-        console.log("Element is in view:", this);
       }
     });
   });
